@@ -1,0 +1,18 @@
+@media(max-width:1068px){
+    .cars-block1{
+        justify-content: center;
+    }
+    .mitsubishi-lancer{
+        
+    }
+}
+@media(max-width:1068px){
+.section2-div{
+    margin-top: 300px;
+}
+}
+@media(max-width:716px){
+    .cars-block1{
+        height: 2200px;
+    }
+}
