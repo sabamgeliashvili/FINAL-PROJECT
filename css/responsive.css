@@ -10,9 +10,35 @@
 .section2-div{
     margin-top: 300px;
 }
+.cars-block1{
+    justify-content: space-around;
+}
+.our-cars{
+    margin-bottom: 30px;
+}
 }
 @media(max-width:716px){
     .cars-block1{
-        height: 2200px;
+        height: 2600px;
+    }
+    .our-cars{
+        margin-bottom: 70px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .cars-block1{
+        max-width: 300px;
+        width: 100%;
+    }
+
+}
+@media(max-width:372px){
+   .section4-div{
+    flex-direction: column;
+   }
+}
+@media(max-width:818px){
+    .select{
+        margin-top: 80px;
     }
 }
