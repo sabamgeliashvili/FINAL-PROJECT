@@ -42,3 +42,15 @@
         margin-top: 80px;
     }
 }
+@media(max-width:768px){
+    .menu-btn{
+display: block;
+padding-top: 40px;
+    }
+    .menu-btn__burger{
+        display: block;
+    }
+.navigation{
+    display: none;
+}
+}
