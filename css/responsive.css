@@ -2,9 +2,7 @@
     .cars-block1{
         justify-content: center;
     }
-    .mitsubishi-lancer{
-        
-    }
+   
 }
 @media(max-width:1068px){
 .section2-div{
@@ -43,14 +41,69 @@
     }
 }
 @media(max-width:768px){
-    .menu-btn{
-display: block;
-padding-top: 40px;
-    }
-    .menu-btn__burger{
-        display: block;
-    }
-.navigation{
-    display: none;
+   .hamburger{
+    display: block;
+    margin-top: 30px;
+   }
+   .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+   }
+ .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+ }
+ .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+ }
+   .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    margin-top: 30px;
+   }
+   .nav-item{
+    margin: 16px 0;
+   }
+   .nav-menu.active{
+    left: 0;
+   }
 }
+@media(max-width:1215px){
+    .parts-div{
+        grid-template-columns: repeat(3, 1fr);
+        height:1300px;
+    }
+}
+@media(max-width:915px){
+    .parts-div{
+        grid-template-columns: repeat(2, 1fr);
+        height:2000px;
+    }
+   
+}
+@media(max-width:618px){
+    .parts-div{
+        grid-template-columns: repeat(1, 1fr);
+        height: 4000px;
+    }
+}
+@media(max-width:405px){
+    .our-cars{
+        margin-bottom: 70px;
+        max-width: 200px;
+        width: 100%;
+    }
+    .carbox1-span{
+        margin-top:-40px;
+        font-size:14px;
+        line-height:16px;
+    }
+    .title2{
+        text-align:center;
+    }
 }
