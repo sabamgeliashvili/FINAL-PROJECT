@@ -1,0 +1,79 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body{
+    background-color:#222;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+background-position: center;
+}
+.sign-up-form{
+    max-width:300px;
+    width: 100%;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.sign-up-form h2{
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 250px;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+.signup-btn{
+    color: #fff;
+    max-width: 250px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: blue;
+}
+.fb-btn{
+    color: #fff;
+    max-width: 250px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #21afde;
+}
+h2{
+    font-size: 40px;
+}
+hr{
+    margin-top: 20px;
+    width: 80px;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+

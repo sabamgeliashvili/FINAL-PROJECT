@@ -25,9 +25,6 @@ body{
         height: auto;
        
     }
-    #video-container{
-       
-    }
     
     .header-div{
         display: -webkit-box;
@@ -47,8 +44,7 @@ body{
         left: 0;
         position: fixed;
       z-index: 1000;
-      height: 100px;
-      width: 100%; 
+
          
       padding: 18px;
       /* -webkit-transition: all ease-out .5s;
@@ -82,17 +78,31 @@ body{
    justify-content: space-between;
    /* max-width: 500px;
    width: 100%; */
-   gap: 60px;
+   gap: 33px;
     }
     .nav-link{
+        position: relative;
       color: black;
       -webkit-transition: 0.7s ease;
       -o-transition: 0.7s ease;
       transition: 0.7s ease;
     }
-    .nav-link:hover{
-      color: dodgerblue;
-    }
+    .nav-link::after{
+        content: '';
+        position: absolute;
+        height: 15%;
+        width: 0%;
+        left: 0;
+        bottom:0;
+        background-color:black;
+        -webkit-transition-duration: 2s;
+             -o-transition-duration: 2s;
+                transition-duration: 2s;
+        }
+        .nav-link:hover::after{
+            width: 100%;
+            }
+   
   .hamburger{
       display: none;
       cursor: pointer;
@@ -708,6 +718,11 @@ body{
         color:#00acee;
       }
       
+      .nav-item:nth-child(6){
+       margin-left: 50px;
+      }
+
+
       
-      
-    
+     
+   

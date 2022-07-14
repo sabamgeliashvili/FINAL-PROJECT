@@ -15,100 +15,7 @@
         margin-bottom:50px;
     }
 }
-@media(max-width:1068px){
-    .cars-block1{
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-   
-}
-@media(max-width:1068px){
-.section2-div{
-    margin-top: 300px;
-}
-.cars-block1{
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    max-width:500px;
-    height:2500px;
-}
-.our-cars{
-    margin-bottom: 30px;
-}
-}
-@media(max-width:716px){
-    .cars-block1{
-        height: 2600px;
-    }
-    .our-cars{
-        margin-bottom: 70px;
-        max-width: 300px;
-        width: 100%;
-    }
-    .cars-block1{
-        max-width: 300px;
-        width: 100%;
-    }
-.carbox1-span{
-    margin-top:-20px;
-}
-}
-@media(max-width:372px){
-   .section4-div{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-   }
-}
-@media(max-width:818px){
-    .select{
-        margin-top: 80px;
-    }
-}
-@media(max-width:768px){
-   .hamburger{
-    display: block;
-    margin-top: 30px;
-   }
-   .hamburger.active .bar:nth-child(2){
-    opacity: 0;
-   }
- .hamburger.active .bar:nth-child(1){
-    -webkit-transform: translateY(8px) rotate(45deg);
-        -ms-transform: translateY(8px) rotate(45deg);
-            transform: translateY(8px) rotate(45deg);
- }
- .hamburger.active .bar:nth-child(3){
-    -webkit-transform: translateY(-8px) rotate(-45deg);
-        -ms-transform: translateY(-8px) rotate(-45deg);
-            transform: translateY(-8px) rotate(-45deg);
- }
-   .nav-menu{
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: white;
-    width: 100%;
-    text-align: center;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    margin-top: 30px;
-   }
-   .nav-item{
-    margin: 16px 0;
-   }
-   .nav-menu.active{
-    left: 0;
-   }
-}
+ 
 @media(max-width:1215px){
     .parts-div{
         -ms-grid-columns: (1fr)[2];
@@ -117,47 +24,153 @@
     }
 }
 
-@media(max-width:618px){
-    .parts-div{
-        -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
-        height: 4200px;
+@media(max-width:1068px){
+    .cars-block1{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
-}
-@media(max-width:405px){
-    .our-cars{
-        margin-bottom: 70px;
-        max-width: 200px;
-        width: 100%;
-    }
-    .carbox1-span{
-        margin-top:-40px;
-        font-size:14px;
-        line-height:16px;
-    }
-    .title2{
-        text-align:center;
-    }
-    
-}
-@media(max-width:550px){
-    .title2{
-        text-align:center;
-        font-size:20px;
-    }
-    .span-boxes{
-        -webkit-box-orient:vertical;
-        -webkit-box-direction:normal;
-            -ms-flex-direction:column;
-                flex-direction:column;
-        -webkit-box-align:center;
-            -ms-flex-align:center;
-                align-items:center;
-    }
-    .support-box{
-        margin-top:50px;
-        margin-bottom:50px;
-    }
-    
+   
 }
 
+
+@media(max-width:1068px){
+    .section2-div{
+        margin-top: 300px;
+    }
+    .cars-block1{
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        max-width:500px;
+        height:2500px;
+    }
+    .our-cars{
+        margin-bottom: 30px;
+    }
+    }
+
+
+    @media(max-width:818px){
+        .select{
+            margin-top: 80px;
+        }
+    }
+
+    @media(max-width:768px){
+        .hamburger{
+         display: block;
+         margin-top: 30px;
+        }
+        .hamburger.active .bar:nth-child(2){
+         opacity: 0;
+        }
+      .hamburger.active .bar:nth-child(1){
+         -webkit-transform: translateY(8px) rotate(45deg);
+             -ms-transform: translateY(8px) rotate(45deg);
+                 transform: translateY(8px) rotate(45deg);
+      }
+      .hamburger.active .bar:nth-child(3){
+         -webkit-transform: translateY(-8px) rotate(-45deg);
+             -ms-transform: translateY(-8px) rotate(-45deg);
+                 transform: translateY(-8px) rotate(-45deg);
+      }
+        .nav-menu{
+         position: fixed;
+         left: -100%;
+         top: 70px;
+         gap: 0;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+                 flex-direction: column;
+         background-color: white;
+         width: 100%;
+         text-align: center;
+         -webkit-transition: 0.3s;
+         -o-transition: 0.3s;
+         transition: 0.3s;
+         margin-top: 30px;
+        }
+        .nav-item{
+         margin: 16px 0;
+        }
+        .nav-menu.active{
+         left: 0;
+        }
+        .nav-item:nth-child(6){
+         margin-left: 0;
+        }
+     }
+
+     @media(max-width:716px){
+        .cars-block1{
+            height: 2600px;
+        }
+        .our-cars{
+            margin-bottom: 70px;
+            max-width: 300px;
+            width: 100%;
+        }
+        .cars-block1{
+            max-width: 300px;
+            width: 100%;
+        }
+    .carbox1-span{
+        margin-top:-20px;
+    }
+    }
+    @media(max-width:618px){
+        .parts-div{
+            -ms-grid-columns: (1fr)[1];
+            grid-template-columns: repeat(1, 1fr);
+            height: 4200px;
+        }
+    }
+
+    @media(max-width:550px){
+        .title2{
+            text-align:center;
+            font-size:20px;
+        }
+        .span-boxes{
+            -webkit-box-orient:vertical;
+            -webkit-box-direction:normal;
+                -ms-flex-direction:column;
+                    flex-direction:column;
+            -webkit-box-align:center;
+                -ms-flex-align:center;
+                    align-items:center;
+        }
+        .support-box{
+            margin-top:50px;
+            margin-bottom:50px;
+        }
+        
+    }
+
+    @media(max-width:405px){
+        .our-cars{
+            margin-bottom: 70px;
+            max-width: 200px;
+            width: 100%;
+        }
+        .carbox1-span{
+            margin-top:-40px;
+            font-size:14px;
+            line-height:16px;
+        }
+        .title2{
+            text-align:center;
+        }
+        
+    }
+
+    @media(max-width:372px){
+        .section4-div{
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+                 flex-direction: column;
+        }
+     }
+    
