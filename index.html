@@ -16,22 +16,22 @@
         <div class="header-div">
             
             <nav class="navbar">
-                <a href=""><img class="logo" src="images/logo.png" alt=""></a>
+                <a href=""><img class="logo" src="images/logo.png" alt="logo"></a>
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a href="" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">CARS</a>
+                        <a href="#cars" class="nav-link">CARS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">MECHANICS</a>
+                        <a href="#mechanics" class="nav-link">MECHANICS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">PARTS</a>
+                        <a href="#parts" class="nav-link">PARTS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">CONTACT</a>
+                        <a href="#contact" class="nav-link">CONTACT</a>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -43,10 +43,10 @@
         </div>
     </header>
     <section>
-    <div class="bg-image">
-        <!-- <div class="bg-txt"><h1 class="bg-title"></h1></div> -->
-    </div>
-    <div class="wholebox1">
+   <div id="video-container">
+        <video class="bg-video" type="video/mp4" preload="auto" autoplay="autoplay" src="images/background.mp4" loop muted></video>
+   </div>
+    <div class="wholebox1" id="cars">
     <h2 class="offers-t">our offers</h2>
     <div class="blackline"></div>
         <div class="cars-block1" >
@@ -68,14 +68,14 @@
             </div>
             <div class="our-cars">
                 <h2 class="carboxes1-t">MITSUBISHI ECLIPSE CROSS</h2>
-                <a href=""><img class="image3" src="images/image3.jpg" alt=""></a>
+                <a href=""><img class="image3" src="images/image3.jpg" alt="image"></a>
                 <span class="carbox1-span">Mitsubishi has launched the Eclipse Cross with a new 1.5-litre petrol engine,
                      which isn't very cheap to run. It'll manage just 37.7mpg in front-wheel drive cars with a manual gearbox, 
                      while the CVT version with 4WD returns 32.5mpg - a significant step behind key rivals.</span>
             </div>
             <div class="our-cars">
                 <h2 class="carboxes1-t"> MITSUBISHI DELICA</h2>
-                <a href=""><img class="image4" src="images/image4.jpg" alt=""></a>
+                <a href=""><img class="image4" src="images/image4.jpg" alt="image"></a>
                 <span class="carbox1-span">The Mitsubishi Delica is a range of vans and pickup trucks 
                     designed and built by the Japanese automaker Mitsubishi Motors since 1968.
                      It was originally based on a cabover van and pickup truck introduced the previous year, 
@@ -83,7 +83,7 @@
             </div>
             <div class="our-cars">
                 <h2 class="carboxes1-t"> MITSUBISHI OUTLANDER</h2>
-                <a href=""><img class="image5" src="images/image5.jpg" alt=""></a>
+                <a href=""><img class="image5" src="images/image5.jpg" alt="image"></a>
                 <span class="carbox1-span">The Outlander is motivated by a 2.5-liter 
                     inline-four-cylinder engine that makes 181 horsepower and 181 pound-feet of torque. 
                     It pairs exclusively with a continuously variable automatic transmission (CVT). 
@@ -91,7 +91,7 @@
             </div>
             <div class="our-cars">
                 <h2 class="carboxes1-t"> MITSUBISHI PAJERO</h2>
-                <a href=""><img class="image6" src="images/image6.jpg" alt=""></a>
+                <a href=""><img class="image6" src="images/image6.jpg" alt="image"></a>
                 <span class="carbox1-span">The Mitsubishi Pajero is a full-size SUV (sport utility vehicle)
                      that was manufactured and marketed globally by Mitsubishi
                      over four generations — introduced in 1981 and discontinued in 2021.</span>
@@ -101,7 +101,7 @@
     </section>
     <section>
         <div class="section2-div">
-            <div class="repair-div"><h2 class="title2">CAR REPAIR SERVICES</h2></div>
+            <div class="repair-div" id="mechanics"><h2 class="title2">CAR REPAIR SERVICES</h2></div>
             <h2 class="title2">OUR MECHANICS</h2>
             <div class="blackline"></div>
         <div class="slider">
@@ -113,18 +113,18 @@
                     <div class="name-box">
                         <h3 class="mechanics-title">Richard Williams</h3>
                     </div>
-                    <img class="slider-image" src="images/image7.jpg" alt=""></div>
+                    <img class="slider-image" src="images/image7.jpg" alt="image"></div>
                   <div class="swiper-slide">
                     <div class="name-box">
                         <h3 class="mechanics-title">Thomas Brown</h3>
                     </div>
-                    <img class="slider-image" src="images/image8.jpg" alt="">
+                    <img class="slider-image" src="images/image8.jpg" alt="image">
                 </div>
                   <div class="swiper-slide">
                     <div class="name-box">
                         <h3 class="mechanics-title">Paul Smith</h3>
                     </div>
-                    <img class="slider-image" src="images/image9.jpg" alt="">
+                    <img class="slider-image" src="images/image9.jpg" alt="image">
                 </div>
 
                 
@@ -162,82 +162,82 @@
 });
     </script>
     <section>
-        <div class="parts-t-div" >
+        <div class="parts-t-div">
         <div class="parts-t"><h2>Mitsubishi Parts</h2></div>
         </div>
-        <div class="parts-div">
+        <div class="parts-div" id="parts">
         <div class="part">
-            <img class="part-images" src="images/image16.jpg" alt="">
+            <img class="part-images" src="images/image16.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image17.jpg" alt="">
+            <img class="part-images"  src="images/image17.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image18.jpg" alt="">
+            <img class="part-images"  src="images/image18.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image19.jpg" alt="">
+            <img class="part-images"  src="images/image19.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image20.jpg" alt="">
+            <img class="part-images"  src="images/image20.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image21.jpg" alt="">
+            <img class="part-images"  src="images/image21.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image22.jpg" alt="">
+            <img class="part-images"  src="images/image22.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image23.jpg" alt="">
+            <img class="part-images"  src="images/image23.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image24.jpg" alt="">
+            <img class="part-images"  src="images/image24.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image25.jpg" alt="">
+            <img class="part-images"  src="images/image25.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
 
         <div class="part">
-            <img class="part-images"  src="images/image26.jpg" alt="">
+            <img class="part-images"  src="images/image26.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
         <div class="part">
-            <img class="part-images"  src="images/image27.jpg" alt="">
+            <img class="part-images"  src="images/image27.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
         <div class="part">
-            <img class="part-images"  src="images/image32.jpg" alt="">
+            <img class="part-images"  src="images/image32.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
         <div class="part">
-            <img class="part-images"  src="images/image33.jpg" alt="">
+            <img class="part-images"  src="images/image33.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
         <div class="part">
-            <img class="part-images"  src="images/image34.jpg" alt="">
+            <img class="part-images"  src="images/image34.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
         <div class="part">
-            <img class="part-images"  src="images/image35.jpg" alt="">
+            <img class="part-images"  src="images/image35.jpg" alt="image">
             <a href="" class="parts-button"><div>$ Buy Now</div></a>
         </div>
     </div>
@@ -250,7 +250,7 @@
                 <!-- <div class="map"> -->
                     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.007059819526!2d44.7494875!3d41.7850615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446e0807a087b1%3A0x8270a097286a6225!2zOCDhg5Dhg6Hhg5vhg5Dhg5fhg5jhg6Eg4YOl4YOj4YOp4YOQLCDhg5fhg5Hhg5jhg5rhg5jhg6Hhg5g!5e0!3m2!1ska!2sge!4v1657291338517!5m2!1ska!2sge" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <!-- </div> -->
-            <div class="contact-div">
+            <div class="contact-div" id="contact">
                 <select name="select-car" id="cars" class="select">
                     <option value="none" disabled hidden selected>select car</option>
                     <option value="cars">mitsubishi asx</option>
@@ -274,6 +274,11 @@
                 <span class="footer-span"><a class="info-a" href="">Term and Conditions</a></span>
                 <span class="footer-span"><a class="info-a" href="">Best Price Guarantee</a></span>
                 <span class="footer-span"><a class="info-a" href="">Privacy & Cookies Policy</a></span>
+                <div class="icons">
+                   <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square fb"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram insta"></i></a>
+                   <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter-square twtr"></i></a>
+                </div>
             </div>
             <div class="support-box">
                 <h2 class="footer-t">Customer Support</h2>
@@ -299,6 +304,7 @@
             </span>
             </div>
         </div>
+        
         <div class="partners-block">
             <div class="partner-logo">
                 <img class="image28" src="images/image28.png" alt="image">
