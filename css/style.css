@@ -147,7 +147,7 @@ body{
         -o-transition: transform .2s;
         transition: transform .2s;
         transition: transform .2s, -webkit-transform .2s;
-        border-radius: 20px;
+        border-radius: 15px;
     }
     .our-cars:hover {
         -webkit-transform: scale(1.3);
