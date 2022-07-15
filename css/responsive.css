@@ -12,6 +12,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media(max-width:1300px){
     .cars-block1{
         max-width:900px;
@@ -126,6 +133,11 @@
         margin-top:-20px;
     }
     }
+    @media(max-width:710px){
+        /* .our-mission{
+            font-size: 12px;
+        } */
+    }
     @media(max-width:618px){
         .parts-div{
             -ms-grid-columns: (1fr)[1];
@@ -152,7 +164,9 @@
             margin-top:50px;
             margin-bottom:50px;
         }
-        
+        /* .our-mission{
+            font-size: 10px;
+        } */
     }
 
     @media(max-width:405px){

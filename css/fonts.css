@@ -42,6 +42,30 @@
     font-style: italic;
     font-display: swap;
 }
+@font-face {
+    font-family: 'FASTRACE';
+    src: url('../fonts/FASTRACE.eot');
+    src: url('../fonts/FASTRACE.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FASTRACE.woff2') format('woff2'),
+        url('../fonts/FASTRACE.woff') format('woff'),
+        url('../fonts/FASTRACE.svg#FASTRACE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Faster One';
+    src: url('../fonts/FasterOne-Regular.eot');
+    src: url('../fonts/FasterOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FasterOne-Regular.woff2') format('woff2'),
+        url('../fonts/FasterOne-Regular.woff') format('woff'),
+        url('../fonts/FasterOne-Regular.svg#FasterOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 
 

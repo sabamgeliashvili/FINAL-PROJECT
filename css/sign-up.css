@@ -5,6 +5,20 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body{
     background-color:#222;
     margin: 0;
@@ -76,4 +90,12 @@ hr{
     width: 30px;
     margin: -19px auto 10px;
 }
-
+.btn-a{
+    color: #fff;
+}
+.signup-t{
+    font-family: 'Faster One';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
