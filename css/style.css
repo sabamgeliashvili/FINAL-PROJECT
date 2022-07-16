@@ -18,6 +18,13 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 :root{
     --color01:white;
  }
@@ -431,9 +438,9 @@
                  align-items: center;
        background-color: black;
        padding-top: 20px;
-       height: 1300px;
+       height: 1800px;
        }
-       .parts-div > *:nth-child(1){
+       /* .parts-div > *:nth-child(1){
     -ms-grid-row:1;
     -ms-grid-column:1;
        }
@@ -496,7 +503,7 @@
        .parts-div > *:nth-child(16){
     -ms-grid-row:4;
     -ms-grid-column:4;
-       }
+       } */
        .part-images:hover{
          -webkit-transform: scale(1.5);
              -ms-transform: scale(1.5);

@@ -32,9 +32,9 @@
  
 @media(max-width:1215px){
     .parts-div{
-        -ms-grid-columns: (1fr)[2];
+        -ms-grid-columns: (1fr, 2);
         grid-template-columns: repeat(2, 1fr);
-        height:2300px;
+        height:3300px;
     }
 }
 
@@ -140,9 +140,9 @@
     }
     @media(max-width:618px){
         .parts-div{
-            -ms-grid-columns: (1fr)[1];
+            -ms-grid-columns: (1fr,1);
             grid-template-columns: repeat(1, 1fr);
-            height: 4200px;
+            height: 6500px;
         }
     }
 
