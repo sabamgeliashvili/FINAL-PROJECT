@@ -183,7 +183,9 @@
         .title2{
             text-align:center;
         }
-        
+        .carbox1-span{
+            font-size: 12px;
+        }
     }
 
     @media(max-width:372px){

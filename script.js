@@ -9,6 +9,8 @@
  })
 
 
- document.getElementById('submitbtn').addEventListener('click', function() { alert('your message was sent successfully') })
+ document.getElementById('submitbtn').addEventListener('click', function()
+  { alert('your message was sent successfully') 
+})
 
 
