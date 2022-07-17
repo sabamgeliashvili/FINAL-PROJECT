@@ -299,9 +299,9 @@
              justify-content: center;
      
      }
-     .active {
+     /* .active {
          background-color: rgba(34,34,34,0.8);
-       }
+       } */
        .swiper{
          width: 80%;
          height: -webkit-fit-content;
